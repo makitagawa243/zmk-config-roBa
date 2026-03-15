@@ -70,11 +70,6 @@
             key-positions = <11 10>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
@@ -113,7 +108,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                             &kp Y            &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G               &kp ESCAPE                  &kp SEMICOLON     &kp H            &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B               &kp TAB                     &kp SINGLE_QUOTE  &kp N            &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT INT_YEN
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B               &kp TAB                     &kp SINGLE_QUOTE  &kp N            &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 INT_MUHENKAN  &lt_to_layer_0 3 SPACE      &lt 1 ENTER       &lt 2 BACKSPACE                             &kp DEL
             >;
         };
@@ -130,8 +125,8 @@
         NUM {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS                                                &kp EXCL          &kp AT             &kp HASH              &kp DOLLAR        &kp PERCENT
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp AMPS          &kp ASTRK          &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp JP_UNDERSCORE
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp RIGHT_BRACKET &kp BACKSLASH      &kp RIGHT_BRACE       &kp PIPE          &kp BACKSLASH
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp EQAUL     EQAUL       &kp AMPS          &kp ASTRK          &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp JP_UNDERSCORE
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp RIGHT_BRACKET &kp BACKSLASH      &kp RIGHT_BRACE       &kp PIPE          &kp INT_YEN
 &trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                       &kp LEFT_BRACE
             >;
         };
