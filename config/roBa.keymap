@@ -79,6 +79,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        henkan {
+            bindings = <&kp INTERNATIONAL_4>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
