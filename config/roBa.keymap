@@ -42,7 +42,7 @@
 };
 
 &trackball_listener {
-    input-processors = <&zip_temp_layer 4 700>;
+    input-processors = <&zip_temp_layer 4 1000>;
     scroller {
         layers = <5>;
         input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 2>, <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
@@ -50,7 +50,7 @@
 };
 
 &mkp_input_listener {
-    input-processors = <&zip_temp_layer 4 250>;
+    input-processors = <&zip_temp_layer 4 500>;
 };
 
 / {
