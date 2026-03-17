@@ -39,7 +39,7 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - LCTRL
-  - {t: INT MUHENKAN, h: NUM}
+  - '&td0'
   - {t: '&to_layer_0 SPACE', h: ARROW}
   - {t: ENTER, h: FUNCTION}
   - {t: BACKSPACE, h: NUM}
@@ -127,10 +127,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '{'
   ARROW:
   - ESCAPE
@@ -139,8 +139,8 @@ layers:
   - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE UP
+  - Alt+UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
@@ -151,14 +151,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE DOWN
+  - Alt+DOWN ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
-  - Gui+Sft+RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
