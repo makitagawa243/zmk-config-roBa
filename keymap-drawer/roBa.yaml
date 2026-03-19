@@ -38,8 +38,8 @@ layers:
   - LEFT SHIFT
   - LEFT ALT
   - LEFT WIN
-  - LCTRL
   - '&td0'
+  - LCTRL
   - {t: '&to_layer_0 SPACE', h: ARROW}
   - {t: ENTER, h: FUNCTION}
   - {t: BACKSPACE, h: NUM}
@@ -138,7 +138,7 @@ layers:
   - UP ARROW
   - Ctl+TAB
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Alt+1
   - PAGE UP
   - Alt+UP
   - {t: ▽, type: trans}
@@ -150,7 +150,7 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+Ctl+2
   - PAGE DOWN
   - Alt+DOWN ARROW
   - PRINTSCREEN
@@ -162,8 +162,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+Ctl+3
+  - Alt+Ctl+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
