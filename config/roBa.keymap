@@ -119,10 +119,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E         &kp R      &kp T                                                &kp Y            &kp U  &lt 5 I    &kp O    &kp P
-&kp A           &kp S         &kp D         &kp F      &kp G  &kp ESCAPE                  &kp SEMICOLON     &kp H            &kp J  &kp K      &kp L    &kp MINUS
-&kp Z           &kp X         &kp C         &kp V      &kp B  &lt_to_layer_0 6 TAB        &kp SINGLE_QUOTE  &kp N            &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &kp LCTRL  &td0   &lt_to_layer_0 3 SPACE      &lt 1 ENTER       &lt 2 BACKSPACE                             &kp DEL
+&kp Q           &kp W         &kp E         &kp R  &kp T                                                    &kp Y            &kp U  &lt 5 I    &kp O    &kp P
+&kp A           &kp S         &kp D         &kp F  &kp G      &kp ESCAPE                  &kp SEMICOLON     &kp H            &kp J  &kp K      &kp L    &kp MINUS
+&kp Z           &kp X         &kp C         &kp V  &kp B      &lt_to_layer_0 6 TAB        &kp SINGLE_QUOTE  &kp N            &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &td0   &kp LCTRL  &lt_to_layer_0 3 SPACE      &lt 1 ENTER       &lt 2 BACKSPACE                             &kp DEL
             >;
         };
 
@@ -146,10 +146,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans                       &trans  &kp PAGE_UP    &kp LA(UP)          &trans           &trans
-&kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans      &trans  &trans  &kp PAGE_DOWN  &kp LA(DOWN_ARROW)  &kp PRINTSCREEN  &trans
-&kp LEFT_SHIFT  &trans           &trans          &trans           &trans   &trans      &trans  &trans  &trans         &trans              &trans           &trans
-&trans          &trans           &trans          &trans           &trans   &trans      &trans  &trans                                                      &trans
+&kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans                       &kp LC(LA(NUMBER_1))  &kp PAGE_UP           &kp LA(UP)          &trans           &trans
+&kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans      &trans  &kp LA(LC(NUMBER_2))  &kp PAGE_DOWN         &kp LA(DOWN_ARROW)  &kp PRINTSCREEN  &trans
+&kp LEFT_SHIFT  &trans           &trans          &trans           &trans   &trans      &trans  &kp LA(LC(NUMBER_3))  &kp LA(LC(NUMBER_4))  &trans              &trans           &trans
+&trans          &trans           &trans          &trans           &trans   &trans      &trans  &trans                                                                           &trans
             >;
         };
 
