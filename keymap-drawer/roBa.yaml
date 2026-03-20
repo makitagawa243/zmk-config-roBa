@@ -319,3 +319,7 @@ combos:
   k: _
 - p: [20, 21]
   k: INTERNATIONAL 4
+- p: [18, 19]
+  k: ''''
+- p: [19, 20]
+  k: ;
