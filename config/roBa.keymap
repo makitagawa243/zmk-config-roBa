@@ -85,6 +85,16 @@
             bindings = <&kp INTERNATIONAL_4>;
             key-positions = <20 21>;
         };
+
+        colon {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <18 19>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMI>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
