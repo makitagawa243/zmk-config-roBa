@@ -128,7 +128,7 @@ layers:
   - KP NUMLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+SPACE
   - {t: ▽, type: trans}
   - {type: held}
   - '{'
