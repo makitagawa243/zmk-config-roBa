@@ -116,7 +116,7 @@ layers:
   - KP 2
   - KP 3
   - .
-  - Sft+0x87
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ']'
   - \
@@ -131,7 +131,7 @@ layers:
   - Ctl+SPACE
   - {t: ▽, type: trans}
   - {type: held}
-  - '{'
+  - Sft+0x87
   ARROW:
   - ESCAPE
   - Ctl+Sft+TAB
