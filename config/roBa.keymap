@@ -108,7 +108,7 @@
 
         sheet_prev: sheet_prev {
             compatible = "zmk,behavior-macro";
-            #binding-cells = <2>;
+            #binding-cells = <0>;
             bindings =
                 <&macro_press>,
                 <&kp LALT>,
@@ -121,7 +121,7 @@
 
         sheet_forward: sheet_forward {
             compatible = "zmk,behavior-macro";
-            #binding-cells = <3>;
+            #binding-cells = <2>;
             bindings =
                 <&macro_press>,
                 <&kp LALT>,
