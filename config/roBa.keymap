@@ -96,6 +96,21 @@
             bindings = <&kp SEMI>;
             key-positions = <19 20>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+
+        left-click {
+            bindings = <&mkp LCLK>;
+            key-positions = <30 31>;
+        };
+
+        right-click {
+            bindings = <&mkp RCLK>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
