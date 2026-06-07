@@ -57,6 +57,11 @@
 
 &mkp_input_listener { input-processors = <&zip_temp_layer 4 500>; };
 
+&kscan0 {
+    debounce-press-ms = <0>;     // 押した瞬間に送信（遅延0ms）
+    debounce-release-ms = <3>;   // 離したときはチャタリング防止のため5ms待つ（ここはお好みで1〜3msに詰めてもOK）
+};
+
 / {
     combos {
         compatible = "zmk,combos";
