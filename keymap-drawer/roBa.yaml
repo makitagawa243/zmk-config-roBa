@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - {t: '&to_layer_0 TAB', h: '6'}
-  - ''''
+  - {t: '''', h: MOUSE}
   - N
   - M
   - ','
@@ -40,7 +40,7 @@ layers:
   - LEFT WIN
   - '&td0'
   - LCTRL
-  - {t: '&to_layer_0 SPACE', h: ARROW}
+  - {t: SPACE, h: ARROW}
   - {t: ENTER, h: FUNCTION}
   - {t: BACKSPACE, h: NUM}
   - DEL
@@ -56,9 +56,9 @@ layers:
   - F4
   - F5
   - {t: ▽, type: trans}
+  - Ctl+Gui+LEFT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F13
@@ -105,7 +105,7 @@ layers:
   - KP 6
   - '"'
   - Ctl+Alt+KP 0
-  - {t: ▽, type: trans}
+  - +
   - ^
   - '&'
   - '*'
@@ -117,7 +117,7 @@ layers:
   - KP 3
   - .
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
   - ']'
   - \
   - '}'
@@ -138,9 +138,9 @@ layers:
   - UP ARROW
   - Ctl+TAB
   - {t: ▽, type: trans}
-  - Ctl+Alt+1
+  - '&head1'
   - PAGE UP
-  - Alt+UP
+  - '&sheet_prev'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
@@ -150,9 +150,9 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+Ctl+2
+  - '&head2'
   - PAGE DOWN
-  - Alt+DOWN ARROW
+  - '&sheet_forward'
   - PRINTSCREEN
   - {t: ▽, type: trans}
   - LEFT SHIFT
@@ -162,8 +162,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+Ctl+3
-  - Alt+Ctl+4
+  - '&head3'
+  - '&head4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -205,7 +205,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -323,3 +323,9 @@ combos:
   k: ''''
 - p: [19, 20]
   k: ;
+- p: [0, 1]
+  k: ESCAPE
+- p: [30, 31]
+  k: '&mkp LCLK'
+- p: [31, 32]
+  k: '&mkp RCLK'
