@@ -223,6 +223,17 @@
             tapping-term-ms = <200>;
         };
 
+        lt_num: lt_num {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_TAP_NUM";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <0>;
+        };
+
         td0: td0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TD0";
@@ -239,7 +250,7 @@
 &kp Q           &kp W         &kp E         &kp R  &kp T                                                    &kp Y            &kp U  &lt 5 I    &kp O    &kp P
 &kp A           &kp S         &kp D         &kp F  &kp G      &kp ESCAPE                &kp SEMICOLON       &kp H            &kp J  &kp K      &kp L    &kp MINUS
 &kp Z           &kp X         &kp C         &kp V  &kp B      &lt_to_layer_0 6 TAB      &lt 4 SINGLE_QUOTE  &kp N            &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &td0   &kp LCTRL  &lt 3 SPACE               &lt 1 ENTER         &lt 2 BACKSPACE                             &kp DEL
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &td0   &kp LCTRL  &lt 3 SPACE               &lt 1 ENTER         &lt_num 2 BACKSPACE                             &kp DEL
             >;
         };
 
